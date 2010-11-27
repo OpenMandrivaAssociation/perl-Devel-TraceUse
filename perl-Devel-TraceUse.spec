@@ -1,5 +1,5 @@
 %define upstream_name    Devel-TraceUse
-%define upstream_version 2.02
+%define upstream_version 2.03
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
