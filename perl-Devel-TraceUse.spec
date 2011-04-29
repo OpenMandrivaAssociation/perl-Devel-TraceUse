@@ -13,7 +13,7 @@ Source0:        http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}
 
 BuildRequires:  perl(Test::More)
 BuildRequires:  perl(Module::Build)
-
+BuildRequires:  perl(Module::CoreList)
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
