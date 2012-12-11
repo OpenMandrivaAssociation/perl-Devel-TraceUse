@@ -60,3 +60,22 @@ rm -rf %{buildroot}
 %doc README
 %{perl_vendorlib}/*
 %{_mandir}/*/*
+
+
+%changelog
+* Fri Apr 29 2011 Guillaume Rousse <guillomovitch@mandriva.org> 2.50.0-1mdv2011.0
++ Revision: 660538
+- update to new version 2.05
+
+* Sun Apr 17 2011 Guillaume Rousse <guillomovitch@mandriva.org> 2.40.0-1
++ Revision: 654067
+- update to new version 2.04
+
+* Sat Nov 27 2010 Guillaume Rousse <guillomovitch@mandriva.org> 2.30.0-1mdv2011.0
++ Revision: 602039
+- new version
+
+* Wed Aug 18 2010 Shlomi Fish <shlomif@mandriva.org> 2.20.0-1mdv2011.0
++ Revision: 571209
+- import perl-Devel-TraceUse
+
