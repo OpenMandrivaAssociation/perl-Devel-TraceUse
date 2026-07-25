@@ -1,15 +1,15 @@
 %define upstream_name    Devel-TraceUse
-%define upstream_version 2.05
+%define upstream_version 2.097
 
 Name:           perl-%{upstream_name}
-Version:        %perl_convert_version %{upstream_version}
-Release:        5
+Version:        %{upstream_version}
+Release:        1
 
 Summary:        Hack around calling UNIVERSAL::can() as a function
 License:        GPL+ or Artistic
 Group:          Development/Perl
-Url:            https://search.cpan.org/dist/%{upstream_name}
-Source0:        http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upstream_version}.tar.gz
+Url:            https://github.com/book/Devel-TraceUse
+Source0:        https://cpan.metacpan.org/authors/id/B/BO/BOOK/Devel-TraceUse-%{upstream_version}.tar.gz
 
 BuildRequires:  perl(Test::More)
 BuildRequires:  perl(Module::Build)
