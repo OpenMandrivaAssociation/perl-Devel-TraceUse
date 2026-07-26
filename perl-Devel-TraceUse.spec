@@ -1,15 +1,13 @@
 %define upstream_name    Devel-TraceUse
-%define upstream_version 2.097
-
 Name:           perl-%{upstream_name}
-Version:        %{upstream_version}
-Release:        1
+Version:        2.097
+Release:        2
 
 Summary:        Hack around calling UNIVERSAL::can() as a function
 License:        GPL+ or Artistic
 Group:          Development/Perl
 Url:            https://github.com/book/Devel-TraceUse
-Source0:        https://cpan.metacpan.org/authors/id/B/BO/BOOK/Devel-TraceUse-%{upstream_version}.tar.gz
+Source0:        https://cpan.metacpan.org/authors/id/B/BO/BOOK/Devel-TraceUse-%{version}.tar.gz
 
 BuildRequires:  perl(Test::More)
 BuildRequires:  perl(Module::Build)
@@ -39,7 +37,7 @@ with no warnings; or no warnings 'UNIVERSAL::isa';, but don't do that; fix the
 code instead.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Build.PL installdirs=vendor
